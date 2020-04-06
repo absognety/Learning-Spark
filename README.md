@@ -1,5 +1,5 @@
   
-# Introduction-To-PySpark & Spark in scala:  
+# Introduction To PySpark & Spark in scala:  
 Some synopsis.....
 
 # What is Spark, anyway?  

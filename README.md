@@ -1,6 +1,6 @@
   
-# Introduction-To-PySpark
-Introduction to pyspark course by Datacamp  
+# Introduction-To-PySpark & Spark in scala:  
+Some synopsis.....
 
 # What is Spark, anyway?  
   

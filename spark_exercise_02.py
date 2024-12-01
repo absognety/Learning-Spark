@@ -3,6 +3,8 @@
 
 # Exercise 02
 
+# https://jaceklaskowski.github.io/spark-workshop/exercises/sql/selecting-the-most-important-rows-per-assigned-priority.html
+
 from pyspark.sql import SparkSession
 
 #Create SparkSession

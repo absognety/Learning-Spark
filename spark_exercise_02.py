@@ -34,7 +34,7 @@ df_input.show(truncate=False)
 # In[20]:
 
 
-window = Window.partitionBy("id").orderBy(F.asc("id"))
+window = Window.partitionBy("id").orderBy(F.asc("id"), F.asc("index"))
 df_input = df_input.withColumn("priority", F.row_number().over(window))
 result = df_input.where(df_input.priority == 1)
 result.select("id", "value").show(truncate=False)
